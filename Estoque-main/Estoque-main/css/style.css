@@ -1,0 +1,56 @@
+body{
+
+    font-family:var(--font-family);
+
+    background:var(--color-background);
+
+    color:#fcf1d0af;
+
+    line-height:1.6;
+
+}
+
+.menu{
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    color:#FCF1D0;
+
+    font-weight:600;
+
+}
+
+section{
+
+    padding:var(--spacing-xl) 0;
+
+}
+
+/* ==========================
+   CONTAINER PADRÃO
+========================== */
+
+.container{
+
+    max-width:1200px;
+
+    margin:0 auto;
+
+    padding:0 20px;
+
+}
+
+#dash{
+    color: #000000;
+}
+
+#direitos{
+    color: #000000;
+}

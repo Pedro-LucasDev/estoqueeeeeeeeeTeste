@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | StockFlow</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+
+</head>
+
+<body>
+
+<header class="dashboard-header">
+
+    <div class="container">
+
+        <h1 class="logo">
+            Stock<span>Flow</span>
+        </h1>
+
+        <div class="user">
+
+            Pedro Lucas
+
+        </div>
+
+    </div>
+
+</header>
+
+<main class="dashboard">
+
+    <div class="container">
+
+        <h2>
+
+            Dashboard
+
+        </h2>
+
+        <section class="stats">
+
+            <article class="card">
+
+                <h3>Produtos</h3>
+
+                <p id="totalProdutos">
+
+                    0
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Entradas</h3>
+
+                <p id="totalEntradas">
+
+                    0
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Saídas</h3>
+
+                <p id="totalSaidas">
+
+                    0
+
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Valor Total</h3>
+
+                <p id="valorTotal">
+
+                    R$ 0,00
+
+                </p>
+
+            </article>
+
+        </section>
+
+        <section class="grafico">
+
+            <h3>
+
+                Estoque Geral
+
+            </h3>
+
+            <canvas id="stockChart"></canvas>
+
+        </section>
+
+        <section class="ultimos">
+
+            <h3>
+
+                Últimos Produtos
+
+            </h3>
+
+            <table id="tabelaultimosprodutos">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Produto</th>
+
+                        <th>Categoria</th>
+
+                        <th>Quantidade</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td colspan="3">
+
+                            Nenhum produto cadastrado.
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </div>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="../js/chart.js"></script>
+
+<script src="../js/main.js"></script>
+
+</body>
+
+</html>

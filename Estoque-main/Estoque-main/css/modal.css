@@ -1,0 +1,152 @@
+/* ==========================
+   MODAL
+========================== */
+
+.modal{
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(17, 24, 39, .55);
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    z-index: 1000;
+
+}
+
+/* Modal aberto */
+
+.modal.active{
+
+    display: flex;
+
+}
+
+/* Caixa */
+
+.modal-content{
+
+    width: 100%;
+
+    max-width: 520px;
+
+    background: #FCF1D0;
+
+    border-radius: 18px;
+
+    padding: 30px;
+
+    box-shadow: 0 25px 60px rgba(0,0,0,.20);
+
+    animation: modalFade .25s ease;
+
+}
+
+.modal-content h2{
+
+    margin-bottom: 25px;
+
+    font-size: 1.8rem;
+
+}
+
+/* Botões */
+
+.modal-buttons{
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 15px;
+
+    margin-top: 30px;
+
+}
+
+/* Animação */
+
+@keyframes modalFade{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+.modal-description{
+
+    color:#6B7280;
+
+    margin-top:-10px;
+
+    margin-bottom:30px;
+
+    font-size:.95rem;
+
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.row .form-group{
+    flex: 1;
+}
+
+.modal-content{
+
+    padding:40px;
+
+}
+
+.modal-buttons button{
+
+    min-width:150px;
+
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}

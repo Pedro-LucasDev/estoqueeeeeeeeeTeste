@@ -1,0 +1,105 @@
+/* ==========================
+   TABELAS
+========================== */
+
+.table-container{
+
+    background: #FCF1D0;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.06);
+
+    overflow: hidden;
+
+}
+
+/* Tabela */
+
+table{
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+/* Cabeçalho */
+
+thead{
+
+    background: #F3F4F6;
+
+}
+
+th{
+
+    padding: 18px;
+
+    text-align: left;
+
+    color: #374151;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+}
+
+/* Linhas */
+
+tbody tr{
+
+    transition: .2s;
+
+}
+
+tbody tr:hover{
+
+    background: #F9FAFB;
+
+}
+
+/* Colunas */
+
+td{
+
+    padding: 18px;
+
+    border-bottom: 1px solid #FCF1D0;
+
+    color: #4B5563;
+
+}
+
+/* Última linha */
+
+tbody tr:last-child td{
+
+    border-bottom: none;
+
+}
+
+/* Estado vazio */
+
+.empty{
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+.empty h3{
+
+    color: #111827;
+
+    margin-bottom: 10px;
+
+}
+
+.empty p{
+
+    color: #6B7280;
+
+}
